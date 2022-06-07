@@ -11,8 +11,8 @@
 Формат вывода:
 True или False.
 '''
-# a = input()
-# b = input()
+a = input()
+b = input()
 
 def anagram(a:str, b:str):
     '''
@@ -26,8 +26,9 @@ def anagram(a:str, b:str):
             return False
     return True   
 
-# print(anagram(a, b))
-print(anagram.__doc__)
+print(anagram(a, b))
+
+# print(anagram.__doc__)
 # print(anagram("silent", "listen"))
 # print(anagram("AbaCa", "AcaBa"))
 # print(anagram("abaca", "acada"))
