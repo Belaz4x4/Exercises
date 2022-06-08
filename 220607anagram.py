@@ -28,6 +28,7 @@ def anagram(a:str, b:str):
 
 print(anagram(a, b))
 
+# Тесты:
 # print(anagram.__doc__)
 # print(anagram("silent", "listen"))
 # print(anagram("AbaCa", "AcaBa"))
