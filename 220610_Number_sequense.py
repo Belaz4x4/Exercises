@@ -41,6 +41,9 @@ Sample Output:
 # n = int(input())
 #
 # def sequence():
+#     '''
+#     Функция является генератором бесконечной последовательности
+#     '''
 #     cnt = 0
 #     while True:
 #         cnt += 1
@@ -54,6 +57,9 @@ Sample Output:
 n = int(input())
 
 def sequence(n):
+    '''
+    # Функция возвращает элемент последовательности по его номеру.
+    '''
     cnt = 0
     digit = 0
     for i in range(n):
