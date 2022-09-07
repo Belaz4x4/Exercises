@@ -42,9 +42,12 @@ def faro_cycles(deck_size):
     return ans
 
 # tests:
-# print(faro_cycles(2))
-# print(faro_cycles(4))
-# print(faro_cycles(6))
-# print(faro_cycles(52))
-# print(faro_cycles(8))
-# print(faro_cycles(2000))
+print(faro_cycles(2))
+print(faro_cycles(4))
+print(faro_cycles(6))
+print(faro_cycles(8))
+print(faro_cycles(10))
+print(faro_cycles(12))
+print(faro_cycles(14))
+print(faro_cycles(16))
+print(faro_cycles(18))
